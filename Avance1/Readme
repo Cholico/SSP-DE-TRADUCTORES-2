@@ -1,0 +1,33 @@
+
+Claro, aquí tienes un ejemplo de cómo podría ser el README para este código:
+
+Analizador Léxico con Interfaz Gráfica (Python)
+Este es un programa escrito en Python que implementa un analizador léxico con una interfaz gráfica construida con Tkinter. El analizador léxico toma una cadena de entrada y la analiza para identificar y clasificar los diferentes componentes léxicos presentes en ella.
+
+Requisitos
+Python 3.x instalado en tu sistema.
+La biblioteca Tkinter que generalmente viene preinstalada con las distribuciones estándar de Python.
+Ejecución
+Abre una terminal o línea de comandos.
+Navega hasta el directorio donde se encuentra el archivo Python (analizador_lexico.py).
+Ejecuta el script Python con el siguiente comando:
+Copy code
+python analizador_lexico.py
+Se abrirá una ventana de la aplicación.
+Ingresa el texto que deseas analizar en el cuadro de entrada.
+Haz clic en el botón "Analizar".
+La tabla mostrará los resultados del análisis léxico, mostrando el lexema, el token y su identificador correspondiente.
+Se mostrará un mensaje emergente indicando si la cadena ingresada es válida o inválida según las reglas establecidas en el programa.
+Estructura del Código
+El código se organiza de la siguiente manera:
+
+La función analizar_cadena() realiza el análisis léxico de la cadena ingresada.
+Se utiliza el módulo Tkinter para la creación de la interfaz gráfica.
+La tabla se crea utilizando el widget ttk.Treeview.
+Los resultados del análisis se muestran en la tabla.
+Se carga la información de las reglas y la tabla de análisis sintáctico LR(1) desde archivos de texto (slrRulesId.txt y slrTable.txt respectivamente).
+Archivos de Configuración
+slrRulesId.txt: Contiene las reglas de reducción para el análisis sintáctico LR(1).
+slrTable.txt: Contiene la tabla de análisis sintáctico LR(1).
+Notas
+Este código es un ejemplo simple de un analizador léxico implementado con Tkinter para la interfaz gráfica y Python para la lógica del análisis léxico. Puedes modificar y extender este código según tus necesidades específicas.
